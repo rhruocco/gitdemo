@@ -1,0 +1,17 @@
+﻿<Window x:Class="tipCalculatorUltimate.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:tipCalculatorUltimate"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid IsEnabled="False">
+        <Label x:Name="totalLabel" Content="what was the bill total" HorizontalAlignment="Left" Margin="87,111,0,0" VerticalAlignment="Top" Height="119" Width="239" FontFamily="Poor Richard" FontSize="20"/>
+        <TextBlock x:Name="totalBox" HorizontalAlignment="Left" Margin="437,100,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="24" Width="82"/>
+        <Button x:Name="calculateBtn" Content="Button" HorizontalAlignment="Left" Margin="257,302,0,0" VerticalAlignment="Top" Width="69" Height="33" Click="calculateBtn_Click"/>
+        <TextBlock x:Name="resultsTxtBlk" HorizontalAlignment="Left" Margin="464,259,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+
+
+    </Grid>
+</Window>
